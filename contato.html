@@ -7,15 +7,20 @@
         <meta name="description" content="Projeto Meu Primeiro Front">
         <meta name="author" content="Luana Silva">
         <meta name="keywords" content="HTML, CSS, JavaScript">
+
         <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
-        <title>Meu Perfil</title>  
+
+        <title>Meu Perfil</title> 
+
+        <!-- Link para a Folha de Estilo da Página - CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
 
     <body>
          <!-- Cabeçalho da Página (header)-->
         <header>
             <!-- Div Conteudo do Cabeçalho -->
-            <div id="header_content">
+            <div id="header_content" class="flex">
 
                 <!-- Titulo do Cabeçalho -->
                 <div id="titulo">
@@ -45,7 +50,7 @@
         <!-- Seção Principal da Página (main) -->
         <main>
             <!-- Seção Formulário de Contato e Redes Sociais -->
-            <section id="contact">
+            <section id="contact" class="flex">
                 <!-- Seção do Formulário -->
                 <form action="#" method="submit" id="formulario">
 
@@ -93,7 +98,7 @@
                 </form>
 
                 <!-- Seção do Google Maps -->
-                <article id="mapa">
+                <article id="mapa" class=""flex_start>
 
                     <div id="endereço">
                         <p>Estação Ribeirão Pires - SP</p>
@@ -115,14 +120,14 @@
         </main>
 
         <!-- Rodapé da Página (footer)-->
-        <footer>
+        <footer class="flex">
             <!-- Seção de Contato - Redes Sociais -->
             <section id="redes-sociais">
                 <a href="https://www.linkedin.com/in/luanasilvadev/">
-                    <img src="assets/img/linkedin.svg" alt="Linkedin" />
+                    <img src="assets/img/linkedin.svg" alt="Linkedin" class="social_icon"/>
                 </a>
                 <a href="https://github.com/LuanaTechVet">
-                    <img src="assets/img/github.svg" alt="Github" />
+                    <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
                 </a>
             </section>
             <h3>

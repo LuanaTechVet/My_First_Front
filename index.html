@@ -7,15 +7,20 @@
         <meta name="description" content="Projeto Meu Primeiro Front">
         <meta name="author" content="Luana Silva">
         <meta name="keywords" content="HTML, CSS, JavaScript">
+
         <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+        
         <title>Meu Perfil</title>
+
+        <!-- Link para a Folha de Estilo da Página - CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
 
     <body>
         <!-- Cabeçalho da Página (header)-->
         <header>
             <!-- Div Conteudo do Cabeçalho -->
-            <div id="header_content">
+            <div id="header_content" class="flex">
 
                 <!-- Titulo do Cabeçalho -->
                 <div id="titulo">
@@ -46,16 +51,18 @@
         <!-- Seção Principal da Página (main)-->
         <main>
             <!-- Seção sobre mim (main)-->
-            <section id="about">
+            <section id="about" class="flex_start">
                 <!-- Titulo da Seção -->
                 <h2>Sobre a Luana...</h2>
 
                 <!-- Conteúdo da Seção -->
-                <div id="conteudo">
+                <div id="conteudo" class="flex">
                     <!--Imagem do criador do conteúdo -->
                     <img
                         src="./assets/img/eu.svg"
                         alt="Autora"
+
+                        class="img_profile"
                     />
                     <!-- Texto sobre a autora -->
                     <article id="sobre_texto">
@@ -67,12 +74,12 @@
             </section>
 
             <!-- Seção Com Vídeo -->
-            <section id="video">
+            <section id="video" class="flex_start">
                 <!-- Título da Seção-->
                 <h2> Um dos meus vídeos favoritos: </h2>
 
                 <!-- Vídeo -->
-                <div id="youtube">
+                <div id="youtube" class="flex">
                     <iframe width="560"
                         height="315" 
                         src="https://www.youtube.com/embed/Hs5f37ktMqY?si=sG30928PzZY05fdS"
@@ -86,20 +93,20 @@
         </main>
         
         <!-- Rodapé da Página (footer)-->
-        <footer>
+        <footer class="flex">
             <!-- Seção de Contato - Redes Sociais -->
-            <section id="redes-sociais">
+            <section id="redes_sociais">
 
                 <a href="https://www.linkedin.com/in/luanasilvadev/">
-                    <img src="assets/img/linkedin.svg" alt="Linkedin" />
+                    <img src="assets/img/linkedin.svg" alt="Linkedin" class="social_icon"/>
                 </a>
                 <a href="https://github.com/LuanaTechVet">
-                    <img src="assets/img/github.svg" alt="Github" />
+                    <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
                 </a>
             </section>
 
             <h3>
-                💜 Agradecimentos a Generation Brasil - 2025 💜
+                💜 Agradecimentos à Generation Brasil - 2025 💜
             </h3>
 
         </footer>
