@@ -4,8 +4,10 @@
     box-sizing: border-box;/*border-box=padding and border are included in the width and height*/
     text-decoration: none;/* remove o sublinhado (underline) dos links*/
     outline: none;
-    font-weight: 400;/*espessura*/
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 :root {/*O seletor :root corresponde ao elemento raiz do documento, criando variáveis com escopo global*/
